@@ -2,6 +2,7 @@ import GitHubProvider from "next-auth/providers/github";
 import GoogleProvider from "next-auth/providers/google";
 
 export const options = {
+  secret: process.env.NEXTAUTH_SECRET, //
   providers: [
     GitHubProvider({
       profile(profile) {
