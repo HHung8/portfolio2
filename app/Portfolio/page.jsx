@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 const Portfolio = () => {
   return (
     <div className="px-9">
