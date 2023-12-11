@@ -20,6 +20,7 @@ const PageDetails = () => {
               src="https://images.unsplash.com/photo-1682687219612-b12805df750d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw5Nnx8fGVufDB8fHx8fA%3D%3D"
               width={400}
               height={300}
+              alt="potfolio"
             />
           </div>
           {/* Phần giới thiệu */}

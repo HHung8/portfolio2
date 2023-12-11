@@ -12,38 +12,42 @@ const Portfolio = () => {
             src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=2866&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             width={300}
             height={200}
+            alt="image"
           />
           <section className="mt-4">
             <section>
-              <h2 class="text-2xl text-default-700">私のスキル</h2>
+              <h2 className="text-2xl text-default-700">私のスキル</h2>
               <ul>
                 <li>
-                  <span class="font-semibold inline">Web developer</span>: HTML
-                  ,CSS,JS
+                  <span className="font-semibold inline">Web developer</span>:
+                  HTML ,CSS,JS
                 </li>
                 <hr />
                 <li>
-                  <span class="font-semibold inline">Other skills</span>:
+                  <span className="font-semibold inline">Other skills</span>:
                   仕事の考え方、年齢に比べて優れたチームワークスキル。
                 </li>
               </ul>
             </section>
             <section className="mt-4">
-              <h2 class="text-2xl text-default-700">歴史</h2>
+              <h2 className="text-2xl text-default-700">歴史</h2>
               <ul>
                 <li>
                   <span aria-hidden="true" className="w-px h-px block"></span>
-                  <span class="font-semibold inline">2017-2019</span>: ホーム
+                  <span className="font-semibold inline">2017-2019</span>:
+                  ホーム
                 </li>
                 <hr />
                 <li>
                   <span aria-hidden="true" className="w-px h-px block"></span>
-                  <span class="font-semibold inline">2019-2021</span>: ホーム
+                  <span className="font-semibold inline">2019-2021</span>:
+                  ホーム
                 </li>
                 <hr />
                 <li>
-                  <span aria-hidden="true" class="w-px h-px block"></span>
-                  <span class="font-semibold inline">2022-2023</span>: ホーム
+                  <span aria-hidden="true" className="w-px h-px block"></span>
+                  <span className="font-semibold inline">2022-2023</span>:
+                  ホーム
                 </li>
               </ul>
             </section>
@@ -60,7 +64,7 @@ const Portfolio = () => {
               <span className="text-xl font-semibold">
                 プロジェクトポートフォリオ
               </span>
-              <p class="text-md">
+              <p className="text-md">
                 プロジェクトポートフォリオ
                 <br />
                 プログラミングと学習に関する記事を掲載するソーシャル ブログ
@@ -88,7 +92,7 @@ const Portfolio = () => {
               <span className="text-xl font-semibold">
                 プロジェクトのコード スニペット
               </span>
-              <p class="text-md">
+              <p className="text-md">
                 小さなプロジェクトは 1日です
                 <br />
                 コード スニペットを作成して共有できるシンプルな Web サイト
@@ -115,7 +119,7 @@ const Portfolio = () => {
               <span className="text-xl font-semibold">
                 プロジェクトポートフォリオ
               </span>
-              <p class="text-md">
+              <p className="text-md">
                 プロジェクトポートフォリオ
                 <br />
                 プログラミングと学習に関する記事を掲載するソーシャル ブログ
